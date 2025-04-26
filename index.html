@@ -6,14 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <link rel="apple-touch-icon" href="icon.png"> <!-- You’ll upload this next -->
+  <link rel="apple-touch-icon" href="icon.png">
   <script>
     window.onload = () => {
-      window.location.href = "https://remotedesktop.google.com/access";
+      setTimeout(() => {
+        window.location.href = "https://remotedesktop.google.com/access";
+      }, 5000); // 5 second delay
     };
   </script>
 </head>
 <body>
-  <h2 style="text-align:center;margin-top:40%;">Launching Chrome Remote Desktop...</h2>
+  <h2 style="text-align:center;margin-top:40%;">Tap the Share icon → “Add to Home Screen”</h2>
+  <p style="text-align:center;">Redirecting in 5 seconds...</p>
 </body>
 </html>
