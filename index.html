@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chrome Remote Desktop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="icon.png">
+  <script>
+    // Delay redirect to give time to add to home screen
+    setTimeout(() => {
+      window.location.href = "https://remotedesktop.google.com/access";
+    }, 5000); // 5 seconds delay
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50%;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Launching Chrome Remote Desktop...</h2>
+  <p style="color: #333;">Please tap the Share icon → “Add to Home Screen”</p>
+  <p style="color: #777;">Redirecting in 5 seconds...</p>
+</body>
+</html>
