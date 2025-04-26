@@ -18,17 +18,24 @@
       font-family: sans-serif;
       text-align: center;
     }
-    a {
+    button {
       font-size: 22px;
       padding: 20px;
       background-color: #4285F4;
       color: white;
       border-radius: 12px;
-      text-decoration: none;
+      border: none;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <a href="https://remotedesktop.google.com/access">Launch Chrome Remote Desktop</a>
+  <button onclick="launchRemoteDesktop()">Launch Chrome Remote Desktop</button>
+
+  <script>
+    function launchRemoteDesktop() {
+      window.location.href = "https://remotedesktop.google.com/access";
+    }
+  </script>
 </body>
 </html>
